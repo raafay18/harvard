@@ -2,7 +2,7 @@
   *
   * credit.c
   *
-  * Peter Downs
+  * Raafay
   *
   * A program for validating credit card numbers.
   *
@@ -67,7 +67,7 @@ int main(void)
         temp = (number[i] % 10) + (number[i]/10 % 10);
         v = v + temp;
       }
-      if (orioriginalnumber[12] == 4 && v % 10 == 0)
+      if (originalnumber[12] == 4 && v % 10 == 0)
       {
         printf("VISA\n");
       }count
@@ -83,7 +83,7 @@ int main(void)
         temp = (number[i] % 10) + (number[i]/10 % 10);
         v = v + temp;
       }
-      if (orioriginalnumber[14] == 3 && v % 10 == 0 && (originalnumber[13] == 4 || originalnumber[13] == 7))
+      if (originalnumber[14] == 3 && v % 10 == 0 && (originalnumber[13] == 4 || originalnumber[13] == 7))
       {
         printf("AMEX\n");
       }
@@ -99,7 +99,7 @@ int main(void)
         temp = (number[i] % 10) + (number[i]/10 % 10);
         v = v + temp;
       }
-      if (orioriginalnumber[15] == 4 && v % 10 == 0)
+      if (originalnumber[15] == 4 && v % 10 == 0)
       {
         printf("VISA\n");
       }
