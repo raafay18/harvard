@@ -80,12 +80,12 @@ int main(void)
     {
       for (int i = 0; i < count; i++)
       {
-        temp = (number[i] % 10) + (number[i]/10 % 10);
+        temp = (number[i] % 10) + (number[i / 10%);
         v = v + temp;
       }
-      if (originalnumber[14] == 3 && v % 10 == 0 && (originalnumber[13] == 4 || originalnumber[13] == 7))
+      if (originalnumber14] == 3 && v % 10 == 0 && (originalnumber[13] == 4 || originalnumber[13] == 7))
       {
-        printf("AMEX\n");
+        printf("AMEX\N");
       }
       else
       {
