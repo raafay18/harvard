@@ -85,7 +85,7 @@ int main(void)
       }
       if (originalnumber14] == 3 && v % 10 == 0 && (originalnumber[13] == 4 || originalnumber[13] == 7))
       {
-        printf("AMEX\N");
+        printf("AMEX\n");
       }
       else
       {
